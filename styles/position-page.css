@@ -11,8 +11,9 @@ img[src*="icon"]{
 	top: 25%;
 }
 body{
-	background-image: url("../images/outerspace_landscape.jpeg");
+	background: url("../images/outerspace_landscape.jpeg") no-repeat;
 	background-size: cover;
+	background-color: powderblue
 }
 nav{
 	position: relative;
