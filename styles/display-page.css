@@ -1,0 +1,56 @@
+body{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	box-sizing: content-box;
+	height: 500px;
+	border: 1px solid black;
+	
+}
+.box{
+	border: 2px solid black;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.top{
+	height: 200px;
+	display: flex;
+	box-sizing: inherit;
+}
+.bottom{
+	height: 300px;
+	display: flex;
+	box-sizing: inherit;
+}
+.top > div{
+	height: 200px;
+	width: 50%;
+	text-align: center;
+	padding-top: 10%;
+}
+.bottom > div{
+	height: 300px;
+	width: 33.33%;
+	text-align: center;
+	padding-top: 15%;
+}
+.green{
+	background-color: green;
+	font-size: 200%;
+}
+.blue{
+	background-color: blue;
+}
+.grey{
+	background-color: grey;
+}
+.black{
+	background-color: black;
+}
+.brown{
+	background-color: brown;
+	font-size: 200%;
+
+}
