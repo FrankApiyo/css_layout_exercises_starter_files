@@ -30,7 +30,7 @@ main{
 	position: relative;
 	width: 600px;
 	height: 300px;
-	/*border: 1px dotted black;*/
+	border: 2px dotted green;
 	margin-top: 7%;
 	margin-right: auto;
 	margin-left: auto;
